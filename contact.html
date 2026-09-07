@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ارتباط با من | فرشته موری</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Stars Background -->
+  <canvas id="stars-canvas"></canvas>
+
+  <div class="cosmic-orb orb-1"></div>
+  <div class="cosmic-orb orb-2"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-bar">
+        <a href="index.html" class="brand-logo">
+          <div class="brand-icon">
+            <i class="fa-solid fa-meteor"></i>
+          </div>
+          <span>فرشته موری</span>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">صفحه اصلی</a></li>
+          <li><a href="index.html#core-pillars" class="nav-link">مهارت‌ها</a></li>
+          <li><a href="index.html#services" class="nav-link">خدمات</a></li>
+          <li><a href="contact.html" class="nav-link" style="color: var(--cyan-glow);">ارتباط با من</a></li>
+        </ul>
+
+        <a href="index.html" class="nav-cta">
+          <i class="fa-solid fa-arrow-right"></i>
+          <span>بازگشت به رزومه</span>
+        </a>
+
+        <button class="mobile-toggle" aria-label="منو">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Page Main Content -->
+  <main class="section" style="padding-top: 150px; min-height: 85vh; display: flex; align-items: center;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">تماس مستقیم</span>
+        <h1 class="section-title">راه‌های <span>ارتباط با من</span></h1>
+        <p class="section-desc">
+          برای سفارش طراحی سایت، مشاوره و همکاری در مدیریت ریسک یا هماهنگی پروژه‌ها می‌توانید از طریق پیام‌رسان‌ها یا ایمیل زیر با من در ارتباط باشید.
+        </p>
+      </div>
+
+      <!-- Contact Methods Grid -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; max-width: 1000px; margin: 0 auto;">
+        
+        <!-- Telegram Card -->
+        <div class="glass-panel" style="padding: 32px 24px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between;">
+          <div style="width: 70px; height: 70px; border-radius: 50%; background: rgba(14, 165, 233, 0.2); border: 1px solid rgba(56, 189, 248, 0.4); display: flex; align-items: center; justify-content: center; font-size: 2rem; color: #38bdf8; margin-bottom: 20px; box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);">
+            <i class="fa-brands fa-telegram"></i>
+          </div>
+          <h3 style="font-size: 1.3rem; margin-bottom: 8px; color: var(--text-primary);">تلگرام</h3>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 18px;">سریع‌ترین روش برای هماهنگی و گفت‌وگو</p>
+          <div style="direction: ltr; font-weight: 700; color: #7dd3fc; margin-bottom: 24px; font-size: 1.1rem;">@aria_net1</div>
+          <a href="https://t.me/aria_net1" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width: 100%; padding: 10px 16px; font-size: 0.95rem;">
+            <i class="fa-brands fa-telegram"></i>
+            <span>ارسال پیام در تلگرام</span>
+          </a>
+        </div>
+
+        <!-- Instagram Card -->
+        <div class="glass-panel" style="padding: 32px 24px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between;">
+          <div style="width: 70px; height: 70px; border-radius: 50%; background: rgba(244, 114, 182, 0.2); border: 1px solid rgba(244, 114, 182, 0.4); display: flex; align-items: center; justify-content: center; font-size: 2rem; color: #f472b6; margin-bottom: 20px; box-shadow: 0 0 20px rgba(244, 114, 182, 0.3);">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <h3 style="font-size: 1.3rem; margin-bottom: 8px; color: var(--text-primary);">اینستاگرام</h3>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 18px;">پیج کاری و ارتباط در دایرکت</p>
+          <div style="direction: ltr; font-weight: 700; color: #f472b6; margin-bottom: 24px; font-size: 1.1rem;">@mwri_tech</div>
+          <a href="https://instagram.com/mwri_tech" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; padding: 10px 16px; font-size: 0.95rem; border-color: rgba(244, 114, 182, 0.5);">
+            <i class="fa-brands fa-instagram"></i>
+            <span>مشاهده صفحه اینستاگرام</span>
+          </a>
+        </div>
+
+        <!-- Email Card -->
+        <div class="glass-panel" style="padding: 32px 24px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between;">
+          <div style="width: 70px; height: 70px; border-radius: 50%; background: rgba(99, 102, 241, 0.2); border: 1px solid rgba(129, 140, 248, 0.4); display: flex; align-items: center; justify-content: center; font-size: 2rem; color: #818cf8; margin-bottom: 20px; box-shadow: 0 0 20px rgba(129, 140, 248, 0.3);">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <h3 style="font-size: 1.3rem; margin-bottom: 8px; color: var(--text-primary);">ایمیل</h3>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 18px;">برای ارسال مستندات و پیشنهادهای رسمی</p>
+          <div style="direction: ltr; font-weight: 700; color: #a5b4fc; margin-bottom: 24px; font-size: 0.95rem;">fereshte8416@gmail.com</div>
+          <a href="mailto:fereshte8416@gmail.com" class="btn btn-primary" style="width: 100%; padding: 10px 16px; font-size: 0.95rem;">
+            <i class="fa-solid fa-paper-plane"></i>
+            <span>ارسال ایمیل</span>
+          </a>
+        </div>
+
+        <!-- GitHub Card -->
+        <div class="glass-panel" style="padding: 32px 24px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between;">
+          <div style="width: 70px; height: 70px; border-radius: 50%; background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.3); display: flex; align-items: center; justify-content: center; font-size: 2rem; color: #ffffff; margin-bottom: 20px; box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);">
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <h3 style="font-size: 1.3rem; margin-bottom: 8px; color: var(--text-primary);">گیت‌هاب</h3>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 18px;">مشاهده کدهای من و مخازن پروژه‌ها</p>
+          <div style="direction: ltr; font-weight: 700; color: #e2e8f0; margin-bottom: 24px; font-size: 1.1rem;">fereshteh-20</div>
+          <a href="https://github.com/fereshteh-20" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; padding: 10px 16px; font-size: 0.95rem;">
+            <i class="fa-brands fa-github"></i>
+            <span>پروفایل گیت‌هاب</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">
+          © ۲۰۲۶ — طراحی و پیاده‌سازی توسط <strong>فرشته موری</strong>
+        </p>
+
+        <div class="footer-socials">
+          <a href="https://t.me/aria_net1" target="_blank" rel="noopener noreferrer" class="social-link" title="تلگرام">
+            <i class="fa-brands fa-telegram"></i>
+          </a>
+          <a href="https://instagram.com/mwri_tech" target="_blank" rel="noopener noreferrer" class="social-link" title="اینستاگرام">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://github.com/fereshteh-20" target="_blank" rel="noopener noreferrer" class="social-link" title="گیت‌هاب">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="mailto:fereshte8416@gmail.com" class="social-link" title="ایمیل">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/stars-canvas.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

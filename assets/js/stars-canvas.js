@@ -1,7 +1,4 @@
-/**
- * Cosmic Galaxy Background - Interactive Canvas Starfield
- * Author: mwri-tech
- */
+// Canvas starfield animation
 
 (function () {
   const canvas = document.getElementById('stars-canvas');
