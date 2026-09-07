@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>خدمات | فرشته موری</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body style="min-height: 100vh; display: flex; flex-direction: column; justify-content: space-between;">
+
+  <!-- Stars Background -->
+  <canvas id="stars-canvas"></canvas>
+
+  <div class="cosmic-orb orb-1"></div>
+  <div class="cosmic-orb orb-2"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-bar">
+        <a href="index.html" class="brand-logo">
+          <div class="brand-icon">
+            <i class="fa-solid fa-meteor"></i>
+          </div>
+          <span>فرشته موری</span>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">صفحه اصلی</a></li>
+          <li><a href="skills.html" class="nav-link">مهارت‌های اصلی</a></li>
+          <li><a href="services.html" class="nav-link" style="color: var(--cyan-glow);">خدمات</a></li>
+        </ul>
+
+        <a href="contact.html" class="nav-cta">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span>ارتباط با من</span>
+        </a>
+
+        <button class="mobile-toggle" aria-label="منو">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Services Content -->
+  <main class="section" style="padding-top: 140px; padding-bottom: 60px; flex: 1;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">زمینه‌های همکاری</span>
+        <h1 class="section-title">چه پروژه‌هایی را <span>انجام می‌دهم؟</span></h1>
+        <p class="section-desc">
+          خدماتی که با تکیه بر دو سال تجربه فریلنسری و تسلط بر ابزارهای فنی آماده ارائه به شما هستم:
+        </p>
+      </div>
+
+      <div class="services-grid" style="max-width: 980px; margin: 0 auto;">
+        <!-- Service 1 -->
+        <div class="service-card glass-panel">
+          <div class="service-icon">
+            <i class="fa-solid fa-paintbrush"></i>
+          </div>
+          <div class="service-content">
+            <h2 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 8px; color: var(--text-primary);">طراحی وب‌سایت</h2>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8;">
+              پیاده‌سازی لندینگ‌پیج‌ها، وب‌سایت‌های شخصی، نمونه‌کار و تجاری با رعایت استانداردهای روز UI/UX و کدنویسی ریسپانسیو.
+            </p>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card glass-panel">
+          <div class="service-icon">
+            <i class="fa-solid fa-shield-check"></i>
+          </div>
+          <div class="service-content">
+            <h2 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 8px; color: var(--text-primary);">ارزیابی ریسک پروژه</h2>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8;">
+              شناسایی چالش‌ها و تهدیدهای پیش‌روی پروژه‌ها، اولویت‌بندی ریسک‌ها و تدوین برنامه‌های پاسخ برای به حداقل رساندن خطرات.
+            </p>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card glass-panel">
+          <div class="service-icon">
+            <i class="fa-solid fa-file-invoice"></i>
+          </div>
+          <div class="service-content">
+            <h2 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 8px; color: var(--text-primary);">پروژه‌های ICDL و اکسل</h2>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8;">
+              فرمول‌نویسی هوشمند در اکسل، مدیریت و ورود داده‌های شرکتی، آماده‌سازی پرزنتیشن‌ها و قالب‌بندی رسمی اسناد.
+            </p>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card glass-panel">
+          <div class="service-icon">
+            <i class="fa-solid fa-gears"></i>
+          </div>
+          <div class="service-content">
+            <h2 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 8px; color: var(--text-primary);">اتوماسیون با پایتون</h2>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8;">
+              نوشتن اسکریپت‌های بهینه‌سازی‌شده پایتون برای خودکارسازی فرآیندهای اداری، استخراج اطلاعات و پردازش سریع داده‌ها.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" style="padding: 20px 0;">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">
+          © ۲۰۲۶ — فرشته موری
+        </p>
+
+        <div class="footer-socials">
+          <a href="https://t.me/aria_net1" target="_blank" rel="noopener noreferrer" class="social-link" title="تلگرام">
+            <i class="fa-brands fa-telegram"></i>
+          </a>
+          <a href="https://www.instagram.com/mwri_tech/" target="_blank" rel="noopener noreferrer" class="social-link" title="اینستاگرام">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="mailto:fereshte8416@gmail.com" class="social-link" title="ایمیل">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="https://github.com/fereshteh-20" target="_blank" rel="noopener noreferrer" class="social-link" title="گیت‌هاب">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/stars-canvas.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

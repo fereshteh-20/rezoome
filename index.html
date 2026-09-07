@@ -3,15 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>فرشته موری | رزومه و نمونه‌کارها</title>
-
-  <!-- Font Awesome -->
+  <title>فرشته موری | طراح وب و مدیریت ریسک</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-  <!-- Main Styles -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body style="min-height: 100vh; display: flex; flex-direction: column; justify-content: space-between;">
 
   <!-- Stars Background Canvas -->
   <canvas id="stars-canvas"></canvas>
@@ -31,10 +27,9 @@
         </a>
 
         <ul class="nav-links">
-          <li><a href="index.html" class="nav-link">صفحه اصلی</a></li>
-          <li><a href="#core-pillars" class="nav-link">مهارت‌های اصلی</a></li>
-          <li><a href="#services" class="nav-link">خدمات</a></li>
-          <li><a href="contact.html" class="nav-link">ارتباط با من</a></li>
+          <li><a href="index.html" class="nav-link" style="color: var(--cyan-glow);">صفحه اصلی</a></li>
+          <li><a href="skills.html" class="nav-link">مهارت‌های اصلی</a></li>
+          <li><a href="services.html" class="nav-link">خدمات</a></li>
         </ul>
 
         <a href="contact.html" class="nav-cta">
@@ -49,12 +44,11 @@
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section id="hero" class="hero-section">
+  <!-- Hero Single-Screen Content -->
+  <main class="hero-section" style="flex: 1; padding: 120px 0 40px;">
     <div class="container">
       <div class="hero-content">
         <div class="hero-info">
-
           <h1 class="hero-title">
             سلام، من <span class="gradient-text">فرشته موری</span> هستم
           </h1>
@@ -99,168 +93,14 @@
         </div>
       </div>
     </div>
-  </section>
+  </main>
 
-  <!-- Core Pillars -->
-  <section id="core-pillars" class="section">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">مهارت‌های کلیدی</span>
-        <h2 class="section-title">زمینه‌های <span>فعالیت من</span></h2>
-        <p class="section-desc">
-          سه حوزه اصلی که در آن‌ها پروژه انجام می‌دهم:
-        </p>
-      </div>
-
-      <div class="core-pillars-grid">
-        <!-- Pillar 1: Web Design -->
-        <div class="pillar-card card-web glass-panel">
-          <div>
-            <div class="pillar-icon-box">
-              <i class="fa-solid fa-laptop-code"></i>
-            </div>
-            <h3 class="pillar-title">طراحی سایت</h3>
-            <p class="pillar-desc">
-              طراحی و پیاده‌سازی انواع وب‌سایت‌های شخصی، شرکتی و لندینگ‌پیج با طراحی مدرن و کاملاً واکنش‌گرا در موبایل و دسکتاپ.
-            </p>
-          </div>
-          <ul class="pillar-features">
-            <li><i class="fa-solid fa-circle-check"></i> کدنویسی استاندارد با HTML5 و CSS3</li>
-            <li><i class="fa-solid fa-circle-check"></i> پیاده‌سازی تعاملات کاربری با JavaScript</li>
-            <li><i class="fa-solid fa-circle-check"></i> اسکریپت‌نویسی و اتوماسیون با Python</li>
-            <li><i class="fa-solid fa-circle-check"></i> سرعت لود بهینه و واکنش‌گرایی کامل</li>
-          </ul>
-        </div>
-
-        <!-- Pillar 2: Risk Management -->
-        <div class="pillar-card card-risk glass-panel">
-          <div>
-            <div class="pillar-icon-box">
-              <i class="fa-solid fa-shield-virus"></i>
-            </div>
-            <h3 class="pillar-title">مدیریت ریسک</h3>
-            <p class="pillar-desc">
-              ارزیابی و مدیریت تخصصی ریسک‌های پروژه؛ شناسایی نقاط آسیب‌پذیر، پیش‌بینی موانع فنی و ارائه استراتژی‌های پیشگیرانه برای تضمین تحویل موفق و بی‌نقص کار.
-            </p>
-          </div>
-          <ul class="pillar-features">
-            <li><i class="fa-solid fa-circle-check"></i> شناسایی و دسته‌بندی ریسک‌های فنی و کاری</li>
-            <li><i class="fa-solid fa-circle-check"></i> تدوین برنامه پاسخ به ریسک و کنترل بحران</li>
-            <li><i class="fa-solid fa-circle-check"></i> ماتریس احتمال و اثر ریسک‌ها</li>
-            <li><i class="fa-solid fa-circle-check"></i> پیش‌بینی چالش‌های تحویل پروژه</li>
-          </ul>
-        </div>
-
-        <!-- Pillar 3: ICDL -->
-        <div class="pillar-card card-icdl glass-panel">
-          <div>
-            <div class="pillar-icon-box">
-              <i class="fa-solid fa-certificate"></i>
-            </div>
-            <h3 class="pillar-title">مدرک ICDL</h3>
-            <p class="pillar-desc">
-              دارای مدرک معتبر ICDL و تسلط کامل بر مهارت‌های هفت‌گانه کامپیوتر؛ تجربه انجام پروژه‌های شرکتی و کارهای اداری.
-            </p>
-          </div>
-          <ul class="pillar-features">
-            <li><i class="fa-solid fa-circle-check"></i> تسلط بر اکسل و تحلیل داده‌های اداری</li>
-            <li><i class="fa-solid fa-circle-check"></i> تدوین اسناد و ساخت اسلایدهای حرفه‌ای</li>
-            <li><i class="fa-solid fa-circle-check"></i> مدیریت پایگاه‌های داده Access</li>
-            <li><i class="fa-solid fa-circle-check"></i> ورود اطلاعات و مستندسازی دقیق</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Services Section -->
-  <section id="services" class="section">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">همکاری</span>
-        <h2 class="section-title">چه پروژه‌هایی را <span>انجام می‌دهم؟</span></h2>
-        <p class="section-desc">
-          خدماتی که با تکیه بر تجربه دو سال فریلنسری آماده ارائه هستم:
-        </p>
-      </div>
-
-      <div class="services-grid">
-        <div class="service-card glass-panel">
-          <div class="service-icon">
-            <i class="fa-solid fa-paintbrush"></i>
-          </div>
-          <div class="service-content">
-            <h4>طراحی وب‌سایت</h4>
-            <p>
-              پیاده‌سازی لندینگ‌پیج‌ها و وب‌سایت‌های شخصی با تم‌های مدرن و شیک.
-            </p>
-          </div>
-        </div>
-
-        <div class="service-card glass-panel">
-          <div class="service-icon">
-            <i class="fa-solid fa-shield-check"></i>
-          </div>
-          <div class="service-content">
-            <h4>ارزیابی ریسک پروژه</h4>
-            <p>
-              شناسایی چالش‌های بالقوه و تدوین برنامه مدیریت ریسک برای پروژه‌ها.
-            </p>
-          </div>
-        </div>
-
-        <div class="service-card glass-panel">
-          <div class="service-icon">
-            <i class="fa-solid fa-file-invoice"></i>
-          </div>
-          <div class="service-content">
-            <h4>پروژه‌های ICDL و اکسل</h4>
-            <p>
-              فرمول‌نویسی اکسل، ورود داده و استانداردسازی اسناد کاری و تجاری.
-            </p>
-          </div>
-        </div>
-
-        <div class="service-card glass-panel">
-          <div class="service-icon">
-            <i class="fa-solid fa-gears"></i>
-          </div>
-          <div class="service-content">
-            <h4>اتوماسیون با پایتون</h4>
-            <p>
-              نوشتن اسکریپت‌های کاربردی پایتون برای خودکارسازی کارهای تکراری.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact CTA Banner -->
-  <section class="section" style="padding: 60px 0 100px;">
-    <div class="container">
-      <div class="glass-panel" style="padding: 48px 24px; text-align: center; max-width: 720px; margin: 0 auto;">
-        <div style="font-size: 2.2rem; color: var(--cyan-glow); margin-bottom: 16px;">
-          <i class="fa-solid fa-comments"></i>
-        </div>
-        <h2 style="font-size: 1.8rem; margin-bottom: 12px; color: var(--text-primary);">آماده شروع همکاری هستید؟</h2>
-        <p style="color: var(--text-secondary); margin-bottom: 28px; font-size: 1rem;">
-          برای سفارش پروژه یا مشاوره، از طریق تلگرام، اینستاگرام یا ایمیل می‌توانید با من صحبت کنید.
-        </p>
-        <a href="contact.html" class="btn btn-primary" style="padding: 14px 32px;">
-          <i class="fa-solid fa-arrow-left"></i>
-          <span>صفحه ارتباط با من</span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="site-footer">
+  <!-- Clean Minimal Footer -->
+  <footer class="site-footer" style="padding: 20px 0;">
     <div class="container">
       <div class="footer-content">
         <p class="footer-text">
-          © ۲۰۲۶ — طراحی و توسعه توسط <strong>فرشته موری</strong>
+          © ۲۰۲۶ — فرشته موری
         </p>
 
         <div class="footer-socials">
@@ -270,11 +110,11 @@
           <a href="https://www.instagram.com/mwri_tech/" target="_blank" rel="noopener noreferrer" class="social-link" title="اینستاگرام">
             <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="https://github.com/fereshteh-20" target="_blank" rel="noopener noreferrer" class="social-link" title="گیت‌هاب">
-            <i class="fa-brands fa-github"></i>
-          </a>
           <a href="mailto:fereshte8416@gmail.com" class="social-link" title="ایمیل">
             <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="https://github.com/fereshteh-20" target="_blank" rel="noopener noreferrer" class="social-link" title="گیت‌هاب">
+            <i class="fa-brands fa-github"></i>
           </a>
         </div>
       </div>
